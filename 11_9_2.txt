@@ -1,0 +1,26 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+PCM
+相变随机存取存储器（PCRAM、PRAM或PCM）是目前研究中最成熟的新存储技术。它依赖于存在于两种不同性质的相变材料：高电阻率的非晶相和低电阻率的结晶相。PCRAM具有良好的可扩展性和耐用性，可与nandflash媲美，这使得它成为未来高速存储设备的有力候选。这项技术比DRAM慢（速度在5到15倍之间），由于其重置操作比其他操作消耗的能量更大，因此在能耗方面存在很大差距
+Phase-Change Random Access Memory (PCRAM, PRAM or PCM) is currently the most mature of the new memory technologies under research. It relies on phase-change materials that exist in two different phases with distinct properties: an amorphous phase, with high electrical resistivity, and a crystalline phase, with low electrical resistivity. PCRAM scales well and presents endurance comparable to that of NAND Flash, which makes it a strong candidate for future high-speed storage devices. This technology is slower than DRAM (between 5 and 15 times slower) and has a considerable disparity in energy consumption due to its RESET operation dissipating a larger amount of energy than other operations
+ 
+What is PCM
+?	The phase-change memory is an emerging nonvolatile semiconductor technology base on thermally induced phase transitions of a thin-film chalcogenide material.
+?	PCM device is a resistor of chalcogenide material, usually  a Ge-Sb-Te (GST) alloy.
+?	The resistance of PCM changes in two states: Crystalline or Amorphous
+?	Phase transitions can be obtained by applying voltage pulses with different amplitudes and with duration in the range of tenths of nanoseconds.
+
+PCM Advantages
+?	Bit alterability
+?	Erase not required
+?	Random access
+?	Lower latency
+?	Fast 1st byte program/erase
+?	Lower consumption
+?	Do not need to fresh/can be powered off
+?	Scalability
+?	Not based on electron storage 
+?	Power scales down with size 
+?	3D stackable 
+?	Low System Complexity
+?	encoding and data are not distinguishing
+?	Reduce the number of chips
