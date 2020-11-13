@@ -1,0 +1,7 @@
+1.1	UVM	对于验证效率的意义
+1.2	PCM	之于传统存储设备的意义
+1.3	DDR	为什么要采取DDR4，与NAND和DRAM的区别
+https://ieeexplore.ieee.org/document/8667543
+https://ieeexplore.ieee.org/document/8572135
+https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDAUTO&filename=XXXT202009045&v=lKHCwu127c97zPAwvz8M6CTxATI11IEtfGKiDtl3SfQy0GULGd0uzcftihSkhBnk
+https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFD201902&filename=1019142677.nh&v=FuHcU4ddw9iik0IssiTyWOTy1YUK4LzcuviuKcm%25mmd2BkuZInTLQ2Q8mXZl89yUn%25mmd2F1R9
