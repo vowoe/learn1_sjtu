@@ -1,0 +1,7 @@
+面向串行总线的层次化UVM验证平台设计
+https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2018&filename=CGQJ201809026&v=j5hJjxOPNABoQg6j1BCb0dajafgIsRei86qz%25mmd2BOyz1m4bgGrRnTPtGj0S08aQSa21
+
+基于相变存储器的存储技术研究综述
+https://kns.cnki.net/kcms/detail/detail.aspx?filename=JSJX201505004&dbcode=CJFD&dbname=CJFD2015&v=kecW7Ta0rRV7brovO6YsRKMVsoNSZeyhbZhNmI0P9PdoV0N3HDjWc6EL3HoG5ii7
+基于PCM的大数据存储与管理研究综述
+https://kns.cnki.net/kcms/detail/detail.aspx?filename=JFYZ201502009&dbcode=CJFD&dbname=CJFD2015&v=PXofnxWQ2LP7lUDG8QcF3d2qUnwhtS9sjoIw1Kc9Llr%mmd2FaSHnv0Khs2VgTeMMBl%mmd2Fz
