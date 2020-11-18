@@ -1,3 +1,10 @@
+相变随机存取存储器（PCRAM、PRAM或PCM）是目前研究中最成熟的新存储技术。它依赖于存在于两种不同性质的相变材料：高电阻率的非晶相和低电阻率的结晶相。PCRAM具有良好的可扩展性和耐用性，可与NAND Flash媲美，这使得它成为高速存储设备的有力候选。这项技术比DRAM慢（速度在5到15倍之间），由于其重置操作比其他操作消耗的能量更大，因此在能耗方面存在很大差距。
+在硬件方面，基于NAND闪存的SSD已被当今的数据中心广泛采用。尽管与传统的磁盘驱动器相比，闪存SSD可以提供更高的性能和更好的电源效率，但众所周知的慢速随机写入和有限的寿命问题在大型系统中仍然是不可忽略的问题。
+以3D Xpoint为例：
+最近，基于3D XPoint（一种非易失性内存（NVM）技术）的Intel的Optane SSD在业界受到了越来越高的关注。与闪存SSD不同，3D XPoint SSD使用基于电阻的记录材料来存储位，从而使其具有更低的延迟和更高的吞吐量。最重要的是，3D XPoint SSD大大缓解了闪存SSD上许多长期存在的问题，例如读写速度差异，慢速随机写入和耐久性问题。因此，3D XPoint SSD被公认为是将来构建下一代存储系统的关键技术。
+NAND闪存是一种EEPROM设备。闪存芯片通常由几个plane组成。每个plane由数千个block组成，每个块又分为几个page。闪存具有三个主要的技术限制。首先，读取操作通常很快（e.g., 50μs ），而写入相对较慢（e.g., 500μs ）。其次，在擦除整个block之前，不能再次覆盖已编程（写入）的page。擦除是一项耗时的操作（e.g., 2.5ms），以block为单位进行。第三，必须以顺序方式对block的闪存page进行编程。
+3D XPoint是一种非易失性内存（NVM）技术。与NAND闪存不同，3D XPoint存储器是字节可寻址的，这意味着可以像DRAM一样以细粒度对其进行访问。由于3D XPoint内存在写入之前不需要擦除操作，因此可以大大缓解读/写速度差异问题。根据美光公司的说法，与NAND闪存相比，3D XPoint的延迟降低了多达1000倍，耐久性提高了多个数量级。
+//[https://ieeexplore.ieee.org/document/9238622]
 其中PCM特点如下：
 The phase-change memory is an emerging nonvolatile semiconductor technology base on thermally induced phase transitions of a thin-film chalcogenide material.
 PCM device is a resistor of chalcogenide material, usually  a Ge-Sb-Te (GST) alloy.
@@ -18,4 +25,4 @@ Power scales down with size
 Low System Complexity
 encoding and data are not distinguishing
 Reduce the number of chips
-	Intel生产的傲腾内存就是使用了3D Xpoint技术，以PCM作为主存，加速辅存读取速率的结构。“英特尔傲内存H10在低队列深度和苛刻的工作负载下提供了低延迟和高性能以及混合的随机读/写速度。这种性能使英特尔傲腾内存H10成为理想的OS驱动器-提供快速启动和应用程序启动，以及流畅的多任务处理。此外，英特尔傲腾内存H10包含英特尔QLC技术，其空中密度优势比上一代英特尔3D NAND高出每个单元1位多33％。这意味着在较小的占地面积内具有大而可靠的容量。借助智能存储，可以更快地访问最常用的文件和应用程序借助智能英特尔?快速存储技术（英特尔RST）驱动程序在后台工作，英特尔傲腾内存H10可以识别并记住重要任务和频繁任务所需的内容，从而可以快速地对其进行加速使用-提供对您常用数据的更快访问。此外，随着您的计算习惯随着时间的推移而变化，英特尔RST将适应您的需求，以确保您最常使用的内容具有快速响应的加速体验。”//参考（https://www.intel.cn/content/www/cn/zh/products/docs/memory-storage/optane-memory/optane-memory-h10-solid-state-storage-brief.html）
+PCM单元的重要设备特性包括：广泛分开的SET和RESET电阻分布（快速读出时有足够的噪声裕度所必需），具有可访问电脉冲在这两种状态之间切换的能力，读取/感知电阻状态而不会干扰的能力它们具有很高的耐用性（允许在SET和RESET之间进行许多切换周期），较长的数据保留时间（通常指定为在升高的温度下10年的数据寿命）和快速的SET速度。数据保留通常归结为单元通过避免意外的重结晶来保留非晶RESET状态的能力。另一个可能非常重要的方面是使用以下功能在每个单元中存储（并保留一段时间）多于1位数据的能力：2? 模拟电阻状态要存储 ?每个单元的位数。类似于MLC（多层单元）闪存，这可以增加有效密度，而不会减小特征尺寸。PCM使MLC的实现复杂化的不良特性是编程后的电阻“漂移”，其中编程后由于材料非晶相的弛豫，器件电阻增加。[https://ieeexplore.ieee.org/abstract/document/7453199]
