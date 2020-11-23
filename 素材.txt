@@ -10,3 +10,19 @@ https://kns.cnki.net/kcms/detail/detail.aspx?filename=JFYZ201502009&dbcode=CJFD&
 
 python自动生成RAL
 https://www.sciencedirect.com/science/article/pii/S2214785320357849
+
+
+https://ieeexplore.ieee.org/abstract/document/6903580
+图2 MLC电阻漂移
+
+https://ieeexplore.ieee.org/abstract/document/7453199
+PCM各类特性
+图1 PCM set reset red特性
+图7 材料特性
+
+https://ieeexplore.ieee.org/document/8875668
+optane
+P5 定位
+P8 架构
+P16 与DRAM交互的数据流
+P21 直接读取数据流
