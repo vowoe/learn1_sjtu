@@ -1,0 +1,10 @@
+图1：
+（a）使用一个二极管和一个PCM（1D1R）的交叉点阵列操作方案。在这种情况下，需要花费时间来提高未选择字线的偏压。（b）使用一个OTS和一个PCM（1S1R）的交叉点阵列操作方案。（c）使用1S1R OTS-PCM单元的两层3-D交叉点阵列.
+图5：
+OTS选择器的极性效应。正向偏置和反向偏置均可显示清晰的磁滞回线，表明OTS选择器可通过双极性操作进行操作。
+VtR高于VtS，因为对于VtR，选择器和PCM必须同时打开。非晶态PCM（RESET）也需要特定电压（PCM的阈值电压）才能导通。利用开启行为的这种差异，提出了一种新的Vth读取方案，而不是使用PCM器件的常规读取电阻。可以在VtS和VtR之间选择一个读取电压（Vread），从而获得大于100 × RESET位和SET位之间的感应电流差异。
+图10：
+I?V characteristic for 1S1R OTS-PCM in RESET state and SET state based on SETUP of Fig. 9(a). The threshold voltage of RESET state (VtR) is higher than the SET state (VtS). More than 100X resistance difference can be read out by read voltage (Vread) which is in between of VtS and VtR (reprinted from [11]).
+
+[https://ieeexplore.ieee.org/abstract/document/8477081]
+Chien, Wei-Chih, et al. "A study on OTS-PCM pillar cell for 3-D stackable memory." IEEE Transactions on Electron Devices 65.11 (2018): 5172-5179.
