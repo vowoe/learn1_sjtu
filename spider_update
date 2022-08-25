@@ -1,0 +1,32 @@
+import requests
+import re
+
+url = input_url
+def get_html(url):
+    res = requests.get(url=url)
+    html=res.content.decode()
+    return html
+
+def get_img_path(html):
+    _img_path_list =re.findall("style/u\w*\.jpg", html)
+    img_path_list=[]
+
+    for i in _img_path_list:
+        img_path_list.append(url + i)
+
+    return img_path_list
+
+def get_img(url,img_name):
+    res=requests.get(url=url)
+
+    with open(f"./img/{img_name}","wb") as f:
+        f.write(res.content)
+
+html = get_html(url)
+
+img_path_list = get_img_path(html)
+i=1
+for img_path in img_path_list:
+    img_name =f"{i}.jpg"
+    get_img(img_path ,img_name)
+    i+=1
